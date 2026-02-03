@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #0d6982;
+}
+.calculator{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.166);
+}
+.calculator form input{
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    box-shadow: -8px -8px 8px gray, 4px 4px 4px black;
+}
+.col{
+    color: rgb(164, 95, 5);
+}
